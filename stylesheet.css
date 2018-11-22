@@ -1,0 +1,136 @@
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- reset styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- reset styles */
+
+/*-------------------------------------------------------------------------HEAD------------------------------------------------------------------------------*/
+.headbox {
+    background-color: #00aad4;
+    height: 110px;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.logoimg{
+    display: inline-block;
+    width: 380px;
+    height: 90px;
+    margin: .5%;
+}
+
+.linkbox{
+    display: inline-block;
+    overflow: auto;
+    float: right;
+    padding: .8% 2%;
+    vertical-align: middle;
+}
+.headlink{
+    text-align: right;
+    font-family: serif;
+    color: white;
+    padding: 5% 0%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.linkstyle{
+    color: white;
+}
+
+/*-------------------------------------------------------------------------DASHBOARD------------------------------------------------------------------------------*/
+
+.dashboard{
+    
+}
+
+.dashboard-active { 
+    background-color: #00aad4;
+    width: 250px;
+    height: 40px;
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+}
+
+.dashboard-past{
+    background-color: lightgrey;
+    width: 250px;
+    height: 40px;
+    border-bottom-right-radius: 10px;
+    display: inline-block;
+}
+.dashtext{
+    text-align: center;
+    padding: 1.5% 0%;
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.dashtextlink{
+    color: white;
+    text-decoration: none;
+    
+}
+/*-------------------------------------------------------------------------BODY------------------------------------------------------------------------------*/
+.projectbody{
+    padding: 2% 2%;
+}
+.icon-box{
+    padding: 3% 3%;
+    width: 80px;
+    display: inline-block;
+}
+.icon{
+    height: 90px;
+    width: 80px;
+}
+.icon-title{
+    text-align: center;
+    padding-top: 10px;
+}
+.icon-link{
+    color: #666666;
+    text-decoration: none;
+}
